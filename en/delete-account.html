@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your account · bommi</title>
+<meta name="description" content="You can delete your account whenever you want, without asking anyone and without explaining why.">
+<style>
+  :root {
+    --tinta: #1a1a1a;
+    --suave: #4a4a4f;
+    --tenue: #8a8a8f;
+    --borde: #e6e6e9;
+    --coral: #ff5a3c;
+    --naranja: #ff9f2e;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 20px 80px;
+    background: #fff;
+    color: var(--tinta);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; }
+  header { padding: 48px 0 8px; }
+  .marca {
+    font-size: 30px; font-weight: 800; letter-spacing: -0.5px;
+    background: linear-gradient(100deg, var(--coral), var(--naranja));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    text-decoration: none; display: inline-block;
+  }
+  h1 { font-size: 30px; line-height: 1.2; margin: 18px 0 10px; letter-spacing: -0.5px; }
+  .entrada { color: var(--suave); font-size: 17px; margin: 0 0 6px; }
+  .fecha { color: var(--tenue); font-size: 14px; margin: 14px 0 0; }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 26px 0 8px; }
+  nav a {
+    color: var(--suave); text-decoration: none; font-size: 14px; font-weight: 600;
+    padding: 7px 14px; border: 1px solid var(--borde); border-radius: 999px;
+  }
+  nav a[aria-current="page"] { color: #fff; background: var(--tinta); border-color: var(--tinta); }
+  .idioma { margin-left: auto; }
+  section { padding: 26px 0; border-top: 1px solid var(--borde); }
+  h2 { font-size: 20px; margin: 0 0 14px; letter-spacing: -0.2px; }
+  ul { margin: 0; padding-left: 22px; }
+  li { margin: 0 0 10px; color: var(--suave); }
+  li::marker { color: var(--coral); }
+  a { color: var(--coral); }
+  .cierre { border-top: 1px solid var(--borde); padding-top: 26px; }
+  .cierre p { color: var(--suave); }
+  .gracias {
+    background: #fff8f4; border: 1px solid #ffe2d6;
+    border-radius: 16px; padding: 18px 20px;
+  }
+  .pie { color: var(--tenue); font-size: 14px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --tinta: #f2f2f4; --suave: #c2c2c8; --tenue: #86868b; --borde: #2a2a2e; }
+    body { background: #0f0f10; }
+    nav a[aria-current="page"] { color: #0f0f10; background: var(--tinta); }
+    .gracias { background: #1a1411; border-color: #3a2620; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <a class="marca" href="https://bommiapp.com">bommi</a>
+    <h1>Delete your account</h1>
+    <p class="entrada">You can delete your account whenever you want, without asking anyone and without explaining why.</p>
+    <p class="fecha">Last updated: 19 September 2026</p>
+    <nav>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="guidelines.html">Guidelines</a>
+        <a href="delete-account.html" aria-current="page">Delete account</a>
+        <a href="../borrar-cuenta.html" class="idioma">Español</a>
+    </nav>
+  </header>
+
+      <section>
+        <h2><span aria-hidden="true">📱</span> From the app, in a minute</h2>
+        <ul>
+        <li>Open bommi and go to Settings, the gear at the top of your profile.</li>
+        <li>Scroll to the bottom and tap «Delete my account».</li>
+        <li>Confirm. It's deleted right away: no bin, no waiting and nothing to request.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span aria-hidden="true">✉️</span> If you no longer have the app</h2>
+        <ul>
+        <li>Write to <a href="mailto:ayuda@bommiapp.com">ayuda@bommiapp.com</a> from the email or with the phone number you opened the account with, so we can check it's you.</li>
+        <li>We answer within five working days at most, which is what Costa Rican law requires.</li>
+        <li>We won't ask you to reinstall the app or to explain why you're leaving.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2><span aria-hidden="true">🗑️</span> What gets deleted</h2>
+        <ul>
+        <li>Your photos, your profile, your description, your activities, your phone number, your date of birth, your stored location and your «¡Vamoos!».</li>
+        <li>We can't delete messages that already reached someone else's phone. That conversation stays with them, but without your name and without your photo: you appear as «User».</li>
+        <li>Reports you sent stay, without your profile, so what was reported can still be reviewed.</li>
+        <li>Deleting is immediate. A trace may remain for a few more days in Google's automatic backups, until they recycle themselves.</li>
+        </ul>
+      </section>
+
+  <div class="cierre">
+      <p>All of this is explained in more detail in our privacy policy.</p>
+      <p class="pie">Responsible: Melany María Trujillo Rivera · Costa Rica · <a href="mailto:ayuda@bommiapp.com">ayuda@bommiapp.com</a></p>
+  </div>
+</main>
+</body>
+</html>
